@@ -1,7 +1,7 @@
 # webpack-starter
 Webpack set up for building javascript applications
 
-(**The following webpack features are added: **)
+**The following webpack features are added: **
 Webpack HTML Plugin,
 Babel Loader,
 Sass Loader With Dart Sass,
