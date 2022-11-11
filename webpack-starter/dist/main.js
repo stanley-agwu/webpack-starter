@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("The first lessons in school is how to love cookies")})();
