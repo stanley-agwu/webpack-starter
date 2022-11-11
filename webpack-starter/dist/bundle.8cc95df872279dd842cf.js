@@ -2,6 +2,22 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/generateJoke.js":
+/*!*****************************!*\
+  !*** ./src/generateJoke.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "generateJoke": () => (/* binding */ generateJoke)
+/* harmony export */ });
+var generateJoke = function generateJoke() {
+  return 'The first lessons in school is how to love cookies';
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
@@ -529,22 +545,6 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
-/***/ }),
-
-/***/ "./src/generateJoke.js":
-/*!*****************************!*\
-  !*** ./src/generateJoke.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "generateJoke": () => (/* binding */ generateJoke)
-/* harmony export */ });
-const generateJoke = () => {
-  return 'The first lessons in school is how to love cookies';
-}
-
 /***/ })
 
 /******/ 	});
@@ -631,10 +631,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
 
 
-
 console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__.generateJoke)());
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.23a7384b6a69cd4b2b5d.js.map
+//# sourceMappingURL=bundle.8cc95df872279dd842cf.js.map
